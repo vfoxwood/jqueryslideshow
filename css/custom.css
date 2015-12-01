@@ -1,0 +1,56 @@
+body {width: 1000px;
+    border:1px solid #282828;
+background-color: #999999;
+}
+
+
+
+header {
+width: 1000px;
+    background-color: #282828; color: darkturquoise;
+    height:100px;
+    position:fixed;
+    margin-top: 0; padding-top:0;
+}
+
+h1 {font-family:'satisfy', cursive; margin-top: 10px;text-align: center; font-size:60px;}
+
+h2 {font-family:'satisfy',cursive; color: white;}
+
+h3 {font-family:'satisfy',cursive; font-size: 40px;color: white; padding-top: 250px; padding-bottom:250px;}
+
+nav {margin-top:120px;}
+
+nav ul li {width: 60px; display:inline-block; text-align: center;
+cursor:pointer;}
+
+#one, #two, #three, #four, #five { border: 1px dotted white;border-radius: 50px; } 
+
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover {background-color: lightcoral;}
+
+#prev:hover {animation:}
+    
+#toggle {margin-left: 420px; }
+
+#prev, #next {padding-top: 14px; padding-bottom: 14px;}
+
+.imgzoom:hover { -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+
+
+.divs {margin:0 auto; text-align: center; height: 500px;}
+
+#needs { background-image: url(supply.gif);}
+
+#heat {background-image: url(boil.gif);}
+
+#pour {background-image: url(pour.gif);}
+
+#steep {background-image: url(steep.gif);}
+
+#enjoy {background-image: url(remove.gif);}
